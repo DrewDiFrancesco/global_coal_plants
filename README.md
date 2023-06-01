@@ -1,0 +1,1 @@
+# global_coal_plants
