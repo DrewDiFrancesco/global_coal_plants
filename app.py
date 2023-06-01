@@ -47,7 +47,8 @@ layout = go.Layout(
 
 fig3 = go.Figure(data=data, layout=layout)
 
-app = JupyterDash(__name__)
+app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div(
     children=[
